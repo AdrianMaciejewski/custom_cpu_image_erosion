@@ -1,0 +1,22 @@
+{
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "1.grayscale.h": "c",
+        "cbmp.h": "c",
+        "step1grayscale.h": "c",
+        "random": "c",
+        "step2binarythreshold.h": "c",
+        "step3erode.h": "c",
+        "step4capture.h": "c",
+        "step5outputimagegeneration.h": "c",
+        "stdio.h": "c",
+        "step5markingcells.h": "c",
+        "time.h": "c",
+        "typeinfo": "cpp",
+        "celldetection.h": "c",
+        "testgeneratetestdatamain.h": "c",
+        "testdata.h": "c",
+        "stdint.h": "c"
+    }
+}

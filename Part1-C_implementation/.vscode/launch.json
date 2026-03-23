@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+
+      // The program you just built:
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+
+      // >>> Put your runtime args here <<<
+      "args": [".\\samples\\easy\\1EASY.bmp", ".\\output_images\\FinalOutout.bmp"],
+
+      // Working directory for the process
+      "cwd": "${fileDirname}",
+
+      // Ensure MSYS2 runtime DLLs are found at debug time
+      "environment": [
+        { "name": "PATH", "value": "C:\\msys64\\ucrt64\\bin;${env:PATH}" }
+      ],
+
+      // Optional: show a separate console for stdin/stdout
+      "externalConsole": true,
+
+      // gdb settings (for MinGW)
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "setupCommands": [
+        { "description": "Enable pretty-printing", "text": "-enable-pretty-printing", "ignoreFailures": true }
+      ],
+
+      // Build before running
+      "preLaunchTask": "C/C++: gcc.exe build active file"
+    }
+  ]
+}

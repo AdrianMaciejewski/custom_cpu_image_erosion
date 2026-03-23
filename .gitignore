@@ -1,0 +1,162 @@
+# Scala / sbt
+target/
+**/target/
+project/target/
+project/project/
+lib_managed/
+dist/
+.bsp/
+.cache/
+*.class
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Metals / Bloop
+.metals/
+.bloop/
+
+# Chisel / FIRRTL / Verilator outputs
+test_run_dir*
+generated/
+*/generated/
+*.fir
+*.v
+*.sv
+*.vo
+*.vcd
+
+# OS and editors
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Misc
+node_modules/
+build/
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+
+# IDEs / editors
+.idea/
+*.iml
+#.vscode/
+
+# sbt / Scala
+target/
+project/
+lib_managed/
+src_managed/
+out/
+
+# Tooling / build caches
+.bsp/
+.metals/
+.ammonite/
+.cache/
+.ivy2/
+.history/
+
+# custom folders
+test_run_dir/
+
+# Compiled object files
+*.o
+
+# Compiled dynamic libraries
+*.so
+
+# Compiled static libraries
+*.a
+
+# Executable files
+*.out
+*.exe
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Build directories
+/build/
+bin/
+obj/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore output images directory
+#output_images/

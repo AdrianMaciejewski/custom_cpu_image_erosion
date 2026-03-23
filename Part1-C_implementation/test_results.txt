@@ -1,0 +1,54 @@
+[PASS] test_grayscale_properties
+[PASS] test_grayscale_expected
+[PASS] test_binary_properties
+[PASS] test_binary_expected
+[PASS] test_erode_capture_properties
+[PASS] test_erode_capture_expected
+[PASS] test_draw_marks_properties
+[PASS] test_draw_marks_expected
+
+Time Benchmarks:
+	Per step:
+		1.toGrayScale:       0.005000 s
+		2.toBinaryScale:     0.002000 s
+		3&4.erodeAndCaptureUntillDone steps:
+			1. Erosion: 0.004000s, Capture 0.034000s
+			2. Erosion: 0.004000s, Capture 0.036000s
+			3. Erosion: 0.003000s, Capture 0.034000s
+			4. Erosion: 0.003000s, Capture 0.035000s
+			5. Erosion: 0.003000s, Capture 0.033000s
+			6. Erosion: 0.003000s, Capture 0.034000s
+			7. Erosion: 0.002000s, Capture 0.034000s
+			8. Erosion: 0.003000s, Capture 0.034000s
+			9. Erosion: 0.002000s, Capture 0.034000s
+			10. Erosion: 0.003000s, Capture 0.034000s
+			11. Erosion: 0.003000s, Capture 0.035000s
+			Total: 0.410000 s
+		5.drawAllX:          0.001000 s
+	Whole program:         0.585000 s
+
+Performance test:
+		Detected 300 cells for '1EASY.bmp'
+		Detected 300 cells for '5EASY.bmp'
+		Detected 300 cells for '10EASY.bmp'
+		Detected on average: 300 cells
+
+		Detected 275 cells for '1MEDIUM.bmp'
+		Detected 270 cells for '5MEDIUM.bmp'
+		Detected 271 cells for '10MEDIUM.bmp'
+		Detected on average: 272 cells
+
+		Detected 265 cells for '1HARD.bmp'
+		Detected 271 cells for '5HARD.bmp'
+		Detected 263 cells for '10HARD.bmp'
+		Detected on average: 266 cells
+
+		Detected 240 cells for '1IMPOSSIBLE.bmp'
+		Detected 238 cells for '3IMPOSSIBLE.bmp'
+		Detected 250 cells for '5IMPOSSIBLE.bmp'
+		Detected on average: 242 cells
+
+		Average cells no. Detected: 270 cells
+
+
+Summary: 8/8 tests passed
